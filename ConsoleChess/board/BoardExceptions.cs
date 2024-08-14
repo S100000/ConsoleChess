@@ -1,8 +1,7 @@
 ﻿
-
 namespace board
 {
-    internal class BoardExceptions
+    internal class BoardExceptions 
     {
     }
 }
