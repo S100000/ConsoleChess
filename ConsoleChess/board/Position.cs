@@ -10,7 +10,6 @@ namespace board
         {
             Line = line;
             Column = column;
-
         }
     }
 }

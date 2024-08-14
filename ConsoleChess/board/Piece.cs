@@ -2,7 +2,7 @@
 {
     internal class Piece
     {
-        public Position Position { get; protected set; }
+        public Position Position { get; set; }
         public Color Color { get; set; }
         public int qtdMovements { get; protected set; }
         private Board board { get; set; }
@@ -11,7 +11,7 @@
         {
             Position = null;
             Color = color;
-            this.qtdMovements = 0;
+            qtdMovements = 0;
             this.board = board;
         }
     }
